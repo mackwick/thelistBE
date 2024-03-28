@@ -15,20 +15,19 @@
 
 ### Show routes (shows == both shows and movies)
 
-|  Route  | Endpoint  | Method |                          Description                           |
-| :-----: | :-------: | :----: | :------------------------------------------------------------: |
-|  Index  |   /show   |  Get   |                       Returns all shows                        |
-| Destroy | /show/:id | Delete | Delete a show by id and remove it from the associated genre(s) |
-| Update  | /show/:id |  Put   |     Update a show by id and update the assocated genre(s)      |
-| Create  |   /show   |  Post  |                     Add a show to the list                     |
-|  Show   | /show/:id |  Get   |                   Return show details by id                    |
-
-### Genre routes
-
-| Route | Endpoint  | Method |        Description        |
-| :---: | :-------: | :----: | :-----------------------: |
-| Index |   /list   |  Get   |    Returns all genres     |
-| Show  | /list/:id |  Get   | Return show details by id |
+|     Route      |    Endpoint    | Method |                     Description                      |
+| :------------: | :------------: | :----: | :--------------------------------------------------: |
+|     Index      |     /show      |  Get   |                  Returns all shows                   |
+|  Index comedy  |  /show/comedy  |  Get   |       Return all shows with a genre of comedy        |
+|  Index drama   |  /show/drama   |  Get   |        Return all shows with a genre of drama        |
+| Index thriller | /show/thriller |  Get   |   Return all shows with a genre of thriller/horror   |
+| Index reality  | /show/reality  |  Get   | Return all shows with a genre of reality/documentary |
+|  Index weird   |  /show/weird   |  Get   |     Return all shows with a genre of just weird      |
+|  Index other   |  /show/other   |  Get   |    Return all shows with a genre of other/unsure     |
+|    Destroy     |   /show/:id    | Delete |                 Delete a show by id                  |
+|     Update     |   /show/:id    |  Put   |                 Update a show by id                  |
+|     Create     |     /show      |  Post  |                Add a show to the list                |
+|      Show      |   /show/:id    |  Get   |              Return show details by id               |
 
 ## ERD (Entity Relationship Diagram)
 
