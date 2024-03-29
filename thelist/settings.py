@@ -15,8 +15,6 @@ import dj_database_url
 import environ
 import os
 
-print(os.environ.get('DATABASE_URL'))
-
 env = environ.Env()
 environ.Env.read_env()
 
