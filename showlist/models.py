@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Show(models.Model):
+    id=models.AutoField(primary_key=True)
     name=models.CharField(max_length=50)
     type=models.CharField(max_length=20, default='tv show')
     genre=models.CharField(max_length=20)
