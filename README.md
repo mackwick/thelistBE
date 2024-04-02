@@ -3,9 +3,9 @@
 - **App Name: The List Roulette**
 - **Description: A full CRUD application for keeping track of all those things you told people you would eventually watch and for generating a random option by genre so you might actually watch some of those things.**
 
-- ![GitHub Url](https://github.com/mackwick/thelistBE)
-- Deployed Backend:
-- Trello Board:
+- GitHub Url: https://github.com/mackwick/thelistBE
+- Deployed Backend: https://thelistbe.onrender.com/shows/
+- Trello Board: https://trello.com/b/mfma0H5j/unit-4-project-the-list-routlette
 
 ## List of Dependencies
 
