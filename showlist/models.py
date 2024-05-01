@@ -8,4 +8,4 @@ class Show(models.Model):
     recby=models.CharField(max_length=30, blank=True)
     watched=models.BooleanField(default=False)    
     image=models.CharField(max_length=300, blank=True)
-    user=models.CharField(max_length=20, blank=True)
+    user=models.CharField(max_length=200, blank=True)
